@@ -6,6 +6,11 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.0
+*._*
+*.ns
+*.lock
+journal
 
 pids
 logs
