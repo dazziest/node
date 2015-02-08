@@ -21,7 +21,9 @@
   },
   
   "dependencies": {
-      "mongodb" : "> 1.1.10" 
+      "mongodb" : "> 1.1.10",
+      "body-parser": "~1.10.2",
+      "express" : ">= 4.11.2"
   },
 
   "devDependencies": {},
