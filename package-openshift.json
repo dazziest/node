@@ -1,0 +1,33 @@
+{
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "homepage": "https://www.openshift.com/",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/openshift-quickstart/simple_node_express_mongo"
+  },
+
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0"
+  },
+  
+  "dependencies": {
+      "mongodb" : "> 1.1.10",
+      "body-parser": "~1.10.2",
+      "express" : ">= 4.11.2"
+  },
+
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
